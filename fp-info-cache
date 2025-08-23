@@ -1,4 +1,4 @@
-21067807010082
+22823799760789
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103710,6 +103710,13 @@ footprints
 
 0
 3
+3
+footprints
+3.5 mm plug 4 pin
+
+
+0
+4
 3
 footprints
 CFS-0102TA

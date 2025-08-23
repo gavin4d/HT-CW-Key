@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|168200500|82413389|b391ca69-5745-416b-bd95-97bf52cae203|ee897069-7af2-48ac-9abb-69e3d7441930",
+          "unconnected_items|157000000|83351362|ee897069-7af2-48ac-9abb-69e3d7441930|b391ca69-5745-416b-bd95-97bf52cae203",
           ""
         ],
         [
-          "unconnected_items|180500000|87400000|313d04d9-7a3c-4e95-af82-fbc84b3710b9|073cbfb3-c443-4fbf-b73d-ed2df3d551ba",
+          "unconnected_items|180500000|87400000|313d04d9-7a3c-4e95-af82-fbc84b3710b9|d157aae3-f6bf-4dc8-bf28-fb93fa61a73f",
           ""
         ]
       ],
