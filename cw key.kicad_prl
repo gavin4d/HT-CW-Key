@@ -35,6 +35,7 @@
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_references",
       "tracks",
       "bitmaps",
       "pads",

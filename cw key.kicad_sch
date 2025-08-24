@@ -2594,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 85.09) (xy 59.69 102.87)
+			(xy 59.69 85.09) (xy 59.69 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2654,13 +2654,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 95.25) (xy 43.18 74.93)
+			(xy 43.18 77.47) (xy 43.18 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cbb8908-1839-4af2-9917-c5fc2682e098")
+		(uuid "5ea801f1-2c30-41cf-982d-ba552ef1caad")
 	)
 	(wire
 		(pts
@@ -2714,16 +2714,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 95.25) (xy 43.18 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69324311-71cb-48e8-9436-c11c6dee5feb")
-	)
-	(wire
-		(pts
 			(xy 237.49 129.54) (xy 237.49 114.3)
 		)
 		(stroke
@@ -2741,16 +2731,6 @@
 			(type default)
 		)
 		(uuid "6f653c8a-61a0-4832-8dfe-ba8bac2fac9d")
-	)
-	(wire
-		(pts
-			(xy 38.1 102.87) (xy 59.69 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7317f958-a1aa-407b-8595-0c99255cc437")
 	)
 	(wire
 		(pts
@@ -3808,7 +3788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:3.5 mm plug"
+		(property "Footprint" "footprints:3.5 mm plug 4 pin"
 			(at 255.27 128.27 0)
 			(effects
 				(font
@@ -5036,7 +5016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:3.5 mm plug"
+		(property "Footprint" "footprints:3.5 mm plug 4 pin"
 			(at 255.27 113.03 0)
 			(effects
 				(font
@@ -6232,6 +6212,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 38.1 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a765dfac-f87e-4ffa-9e2f-4e7d4aac6cbd")
+		(property "Reference" "J6"
+			(at 36.068 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 38.735 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:Header_spacer"
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d140126-bfe3-4ebf-b10f-ce5325e44a5e")
+		)
+		(instances
+			(project "cw key"
+				(path "/a794b037-5597-4c1c-8f69-6ec2c837a701"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 158.75 0)
 		(unit 1)
@@ -6359,6 +6404,71 @@
 			(project "cw key"
 				(path "/a794b037-5597-4c1c-8f69-6ec2c837a701"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 54.61 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b821e607-c387-4869-b1c7-8f9fb4fec1a4")
+		(property "Reference" "J7"
+			(at 52.578 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 55.245 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:Header_spacer"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a99679-db03-4697-b908-739200af06c2")
+		)
+		(instances
+			(project "cw key"
+				(path "/a794b037-5597-4c1c-8f69-6ec2c837a701"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7789,68 +7899,6 @@
 				(path "/a794b037-5597-4c1c-8f69-6ec2c837a701"
 					(reference "R7")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 16.51 90.17)
-		(size 21.59 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ed4e4f4f-8217-43f7-8892-7a4a880b0032")
-		(property "Sheetname" "touch pad"
-			(at 16.51 89.4584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "touch pad.kicad_sch"
-			(at 16.51 109.8046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND_shield" input
-			(at 38.1 102.87 0)
-			(uuid "355d3bc1-474f-44d1-946d-ce1998e0f89c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "pad 0" input
-			(at 38.1 95.25 0)
-			(uuid "2d98c799-3e90-4424-8fbc-f0a37111ae36")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "cw key"
-				(path "/a794b037-5597-4c1c-8f69-6ec2c837a701"
-					(page "2")
 				)
 			)
 		)
